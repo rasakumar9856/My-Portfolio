@@ -134,7 +134,15 @@
         position: relative;
         right:13px;
         top: -12px;
+        opacity: 0;
+        animation: fadeIn 2s ease-in-out forwards;
     }
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
     .hi{
         width: 100px;
     }
